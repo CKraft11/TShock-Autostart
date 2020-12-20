@@ -7,3 +7,6 @@
 ```systemctl enable terraria.service```
 
 ```systemctl start terraria.service```
+
+Reference this guide if you need any help with the initial server setup:
+https://stackoverflow.com/questions/54709898/how-to-install-terraria-tshock-server-on-ubuntu-server
