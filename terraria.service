@@ -7,7 +7,7 @@ After=network.target
 Type=simple
 Restart=always
 ExecStartPre=/bin/sleep 30
-ExecStart=mono --server --gc=sgen -O=all /root/TShock4.4.0_Pre15_Terraria1.4.1.2/TerrariaServer.exe -maxplayers 16 -port 7777 -world /root/.local/share/Terraria/Worlds/RADON.wld
+ExecStart=mono --server --gc=sgen -O=all /PATH-TO-TERRARIA-SERVER.EXE/TerrariaServer.exe -maxplayers 16 -port 7777 -world /root/.local/share/Terraria/Worlds/YOURWORLD.wld
 
 [Install]
 WantedBy=multi-user.target
